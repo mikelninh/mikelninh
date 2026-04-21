@@ -30,7 +30,7 @@ Design philosophy: Kenya Hara, MUJI, material honesty. Strip decoration, trust w
 
 Actively available for **AI engineering roles and contracts** — Berlin-based or remote.
 
-Reach me at [hallo.chupi@gmail.com](mailto:hallo.chupi@gmail.com) or DM [@mikelninh](https://x.com/mikelninh) on X.
+Reach me at [mikel_ninh@yahoo.de](mailto:mikel_ninh@yahoo.de) or DM [@mikelninh](https://x.com/mikelninh) on X.
 
 ---
 
