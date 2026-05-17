@@ -1,8 +1,8 @@
 # Mikel Ninh
 
-**AI engineer shipping products people actually use.**
+**AI engineer building tools for people who need them most.**
 
-Berlin → currently Hanoi → Berlin. Available for AI engineering roles and contracts.
+Berlin. Available for AI engineering roles and contracts.
 
 ---
 
@@ -10,19 +10,19 @@ Berlin → currently Hanoi → Berlin. Available for AI engineering roles and co
 
 |     | What it does | Stack |
 | --- | --- | --- |
-| [**SafeVoice**](https://github.com/mikelninh/safevoice) | Legal-AI for victims of digital harassment. Classifies content under German criminal law and exports a court-ready report in 30 seconds. | FastAPI · SQLAlchemy · OpenAI `gpt-4o-mini` · Pydantic Structured Outputs · React · Railway |
+| [**SafeVoice**](https://github.com/mikelninh/safevoice) | Legal-AI for victims of digital harassment. Classifies a hate comment under German criminal law and generates a court-ready Strafanzeige in 30 seconds. Beta, in pilot with NGO partners. | FastAPI · SQLAlchemy · OpenAI `gpt-4o-mini` · Pydantic Structured Outputs · React · Vercel (Frankfurt) |
+| [**GitLaw**](https://github.com/mikelninh/gitlaw) | AI search across 5,936 German laws. Free Bürger version live; **GitLaw Pro** is the paid tier for lawyers — case-bound research, Mandanten-Portal (DE / VI), digital power of attorney. First pilot with a Berlin law firm. | FastAPI · FAISS · OpenAI Structured Outputs · React |
 | [**Luck Lab**](https://lucklab.app) | Psychology × decision-making. The Reading surfaces what you already secretly know in three minutes. | Next.js · TypeScript · Supabase · ElevenLabs · Remotion |
-| [**GitLaw**](https://github.com/mikelninh/gitlaw) | AI search across 5,936 German laws. Free tier for citizens, paid tier for lawyers. | FastAPI · FAISS · OpenAI Structured Outputs · React |
 
 ---
 
 ## How I work
 
-I build for people who need the tool most — victims of digital violence, citizens navigating legal systems, anyone stuck in avoidable uncertainty. Mantra behind the work: *lokah samastah sukhino bhavantu* — may all beings be happy and free.
+I build for victims of digital violence, citizens navigating legal systems, and people stuck in avoidable uncertainty.
 
-Technically: real backends (FastAPI, SQLAlchemy, Alembic, Postgres on Railway), real LLM integration (OpenAI with Pydantic Structured Outputs — no raw JSON parsing, no regex fallbacks), real deployment, real users. No demos. Products that ship.
+Technically: FastAPI + SQLAlchemy + Alembic backends on Vercel Functions (Frankfurt region for DSGVO). OpenAI `gpt-4o-mini` with Pydantic Structured Outputs — the model literally can't return a value outside the enum. FAISS for local vector search. SHA-256 hash chains where evidence integrity matters.
 
-Design philosophy: Kenya Hara, MUJI, material honesty. Strip decoration, trust what remains, use what actually works.
+Status is honest: SafeVoice and GitLaw are MVPs in active pilot, not finished products. The goal — and the work — is real users in real contexts (German lawyers, NGOs like HateAid). Open source where it helps trust.
 
 ---
 
@@ -41,7 +41,3 @@ Smaller civic-tech work and tools:
 - [**FairEint**](https://github.com/mikelninh/faireint) — *"what should Germany do differently?"* · crowd-sourced policy proposals
 - [**Public Money Mirror**](https://github.com/mikelninh/Public-Money-Mirror) — *"where is our tax money going?"* · public-spending visualiser
 - [**Gefühle-Memory**](https://github.com/mikelninh/Gefuehle-Memory) — language-learning PWA for emotions (German + Tamil)
-
----
-
-*Strip the decoration. Trust what remains. Use what actually works.*
