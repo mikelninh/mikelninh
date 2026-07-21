@@ -39,5 +39,4 @@ Reach me at [mikel_ninh@yahoo.de](mailto:mikel_ninh@yahoo.de) or DM [@mikelninh]
 ## Also in the workshop
 
 - [**civic-ai-mcp-toolkit**](https://github.com/mikelninh/civic-ai-mcp-toolkit) — the shared engine behind every MCP server above: server factory, `@traced`, structured logging, fixture loader, scaffolder CLI.
-- [**INCA Claims-Loop**](https://mikelninh.github.io/inca-site/) — a runnable agent loop (three agents, a receipt per decision, an eval harness), built as a job application you can touch.
 - [**FairEint**](https://github.com/mikelninh/faireint) & [**Public Money Mirror**](https://github.com/mikelninh/Public-Money-Mirror) — the democracy half of the studio: *what should Germany do differently?* and *where is our tax money going?*
