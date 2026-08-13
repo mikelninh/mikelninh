@@ -1,83 +1,87 @@
-# Mikel Ninh
+# Michael Ninh
 
-**AI engineer and product builder turning complicated systems into tools people can understand, test and use.**
+**I build tools that make complex things clearer, calmer, and more useful.**
 
-I work across engineering, product and operations — from an unclear problem to a usable workflow, then into retrieval, APIs, evaluations, guardrails and deployment.
-
-Berlin · open to AI engineering / applied AI roles  
-[Portfolio](https://mikelninh.github.io/) · [LinkedIn](https://www.linkedin.com/in/michael-ninh) · [Email](mailto:mikel_ninh@yahoo.de)
+AI Engineer · Product Builder · Berlin / remote  
+[Portfolio](https://mikelninh.github.io/) · [CV](https://mikelninh.github.io/cv.html) · [LinkedIn](https://www.linkedin.com/in/michael-ninh/) · [Culture](https://mikelninh.github.io/culture/)
 
 ---
 
-## Flagship work
+## Why I build
 
-### [GitLaw](https://github.com/mikelninh/gitlaw) — live legal-research pilot
+I keep noticing systems people have learned to tolerate: rights that are difficult to understand, public services hidden behind forms, important information scattered across institutions, and software that creates more work instead of less.
 
-A research system across **5,936 German federal laws**. The current Mietrecht desk accepts real questions, shows the BGB sources it found and keeps uncertainty visible.
+My instinct is usually the same:
 
-The most useful engineering loop so far came from real use: noisy retrieval and a missed core norm were diagnosed, fixed and converted into regression cases rather than hidden behind an aggregate score.
+**Why does this have to be so complicated? What would the better version look like?**
 
-**Try it:** [Mietrecht Research Desk](https://mikelninh.github.io/gitlaw/#/mietrecht)
+So I build prototypes of that better version, put them in front of people, and learn where reality disagrees.
 
-`Python · FastAPI · React · TypeScript · FAISS · BM25 · MCP`
-
----
-
-### [SafeVoice](https://github.com/mikelninh/safevoice) — evidence-first support for digital harassment
-
-A working closed-beta prototype that turns text, URLs or screenshots into structured evidence, legal context and a human-reviewable report / court-prep package.
-
-The stored classifier evaluation currently passes **30/35 curated cases**. Those are evaluation cases, not 35 users; broader professional and real-user validation is still the next proof.
-
-**Why it matters:** sensitive automation should increase agency without quietly replacing accountable human judgment.
-
-`FastAPI · PostgreSQL · React · Pydantic Structured Outputs · SHA-256 evidence · bounded agent tools`
+> **Technology should return human attention to things worthy of being human.**
 
 ---
 
-### [Digital Worker Factory](https://github.com/mikelninh/digital-worker-factory) — reliable AI-worker architecture
+## Selected work
 
-A working engineering prototype for AI workers that must show evidence, expose failure and ask a human before consequential actions.
+### ⚖️ [GitLaw](https://github.com/mikelninh/gitlaw)
+**Make legal rights easier to understand and act on.**
 
-Its current reliability suite is deliberately **synthetic**. The next meaningful validation step is one real office workflow in shadow mode with human corrections measured.
+A live research system across 5,936 German federal laws. The Mietrecht pilot takes plain-language questions, finds relevant BGB sources, keeps uncertainty visible and turns user-found failures into regression tests.
 
-**Technical demo:** [Digital Worker Factory](https://digital-worker-factory-hallochupi-7378s-projects.vercel.app/)
-
-`JavaScript · agent workflows · approval gates · audit / replay · evaluations`
-
----
-
-### [PrüfPilot](https://github.com/mikelninh/pruefpilot-document-ai) — document review for public-sector workflows
-
-A GovTech prototype that connects documents, versioned rules and evidence states into a human-reviewable next step. The PDF intake / extraction core works; the public reviewer cases use synthetic data.
-
-**Try it:** [PrüfPilot V5.1](https://pruefpilot-aconium.vercel.app/)
-
-`Python · FastAPI · document AI · RAG · structured outputs · human approval`
+→ [Try GitLaw](https://mikelninh.github.io/gitlaw/#/mietrecht)
 
 ---
 
-## More work
+### 🌍 [Citizen Agents](https://github.com/mikelninh/citizen-agents)
+**Make public changes easier for citizens to notice and understand.**
 
-- [**Citizen Agents**](https://github.com/mikelninh/citizen-agents) — open-source agents that watch laws, budgets, benefits and courts and produce cited, human-reviewed updates.
-- [**Agent Loop Lab**](https://github.com/mikelninh/agent-loop-lab) — durable TypeScript workflows with checkpoints, bounded retries and recovery paths.
-- [**OpenLeistung**](https://mikelninh.github.io/openleistung/) — synthetic end-to-end reference for a clearer German public-service journey.
-- [**Empathly**](https://github.com/mikelninh/Empathly) — multilingual emotional-vocabulary and reflection product.
-- [**Path to Peace**](https://github.com/mikelninh/path-to-peace) — open peace-education project.
+Open-source watchdog agents monitor public sources, write cited digests and machine-readable logs, and keep a human review step before publication.
 
-I also build games and private experiments; not every repository is meant to be a flagship.
+→ [Open the public portal](https://mikelninh.github.io/citizen-agents/)
 
 ---
 
-## How I work
+### 🤖 [Digital Worker Factory](https://github.com/mikelninh/digital-worker-factory)
+**Automate repeatable work without quietly automating responsibility.**
 
-- Start with the person, decision and failure cost — not the model.
-- Build the smallest version someone can actually use.
-- Make evidence, uncertainty and human responsibility inspectable.
-- Put real and simulated cases through the workflow.
-- Turn corrections into regression tests and better behaviour.
-- Describe prototypes as prototypes and unfinished work as unfinished work.
+A reusable architecture for AI workers with explicit evidence, permissions, human approval, observable traces and replayable failures. Current validation is synthetic; the next proof is a real workflow in shadow mode.
 
-I am especially interested in **Applied AI, agent reliability, document-heavy workflows, LegalTech, GovTech and product-oriented engineering**.
+→ [Open technical demo](https://digital-worker-factory-hallochupi-7378s-projects.vercel.app/)
 
-> The next proof I care about most: **real users → real corrections → measurable outcomes.**
+---
+
+### 📄 [PrüfPilot](https://github.com/mikelninh/pruefpilot-document-ai)
+**Let skilled reviewers spend attention on judgement, not reconstructing documents.**
+
+A public-sector Document AI prototype that connects documents, versioned rules and evidence gaps into human-reviewable next steps. Public cases use synthetic data.
+
+→ [Try PrüfPilot](https://pruefpilot-aconium.vercel.app/)
+
+---
+
+## How I build
+
+**Human problem → useful workflow → grounded AI → visible uncertainty → human control → real feedback → regression tests.**
+
+I care especially about systems where mistakes have consequences: law, public services, care, health and operational work.
+
+`Python · FastAPI · TypeScript · React · LLMs · RAG · AI agents · MCP · structured outputs · evaluations · human-in-the-loop`
+
+---
+
+## Beyond the flagships
+
+The four projects above are the clearest proof of my current direction. The wider archive includes SafeVoice, civic infrastructure, human-systems experiments, peace education, product ideas and games.
+
+→ [Explore the project map](https://mikelninh.github.io/constellation/)  
+→ [See the human layer](https://mikelninh.github.io/culture/)
+
+---
+
+## What I'm looking for
+
+A strong team where I can own difficult problems end to end — understand the human need, build the system, test it in reality and improve it.
+
+**Applied AI · AI Engineering · Product Engineering · Berlin / EU / remote**
+
+[Let’s talk](mailto:mikel_ninh@yahoo.de)
