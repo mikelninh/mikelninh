@@ -1,73 +1,83 @@
 # Mikel Ninh
 
-**Applied AI engineer building useful systems for people navigating complexity.**
+**AI engineer and product builder turning complicated systems into tools people can understand, test and use.**
 
 I work across engineering, product and operations — from an unclear problem to a usable workflow, then into retrieval, APIs, evaluations, guardrails and deployment.
 
-Berlin · open to AI engineering roles and selected collaborations  
+Berlin · open to AI engineering / applied AI roles  
 [Portfolio](https://mikelninh.github.io/) · [LinkedIn](https://www.linkedin.com/in/michael-ninh) · [Email](mailto:mikel_ninh@yahoo.de)
 
 ---
 
 ## Flagship work
 
-### [GitLaw](https://github.com/mikelninh/gitlaw) — verified legal AI for citizens and law firms
+### [GitLaw](https://github.com/mikelninh/gitlaw) — live legal-research pilot
 
-A legal research and workflow platform across **5,936 German federal laws**. GitLaw combines BM25 + semantic retrieval, a 94K-node citation graph, local citation verification, MCP tools and a closed-beta workflow tier being tested with a Berlin migration-law firm.
+A research system across **5,936 German federal laws**. The current Mietrecht desk accepts real questions, shows the BGB sources it found and keeps uncertainty visible.
 
-**Why it matters:** legal AI should not sound certain when its evidence is missing. GitLaw keeps citations, uncertainty and human review visible.
+The most useful engineering loop so far came from real use: noisy retrieval and a missed core norm were diagnosed, fixed and converted into regression cases rather than hidden behind an aggregate score.
 
-`Python · FastAPI · React · TypeScript · FAISS · BM25 · MCP · AWS · Vercel`
+**Try it:** [Mietrecht Research Desk](https://mikelninh.github.io/gitlaw/#/mietrecht)
 
----
-
-### [SafeVoice](https://github.com/mikelninh/safevoice) — bounded AI for victims of digital harassment
-
-A court-preparation workflow that classifies harmful content, structures evidence and drafts a reviewable criminal complaint. The agent is limited by typed outputs, iteration and cost caps, idempotent tools, audit trails and a human checkpoint before anything leaves the system.
-
-**Why it matters:** automation in sensitive contexts should increase agency without quietly replacing accountable human judgment.
-
-`FastAPI · SQLAlchemy · PostgreSQL · React · Pydantic Structured Outputs · Vercel`
+`Python · FastAPI · React · TypeScript · FAISS · BM25 · MCP`
 
 ---
 
-### [Human Systems Lab](https://github.com/mikelninh/human-systems-lab) — small experiments for public systems that work better
+### [SafeVoice](https://github.com/mikelninh/safevoice) — evidence-first support for digital harassment
 
-A civic product studio for measurable interventions in public services: multilingual benefit navigation, law evaluation, consent-based data reuse, participation tools and an impact-evaluation suite with hard safety and access gates.
+A working closed-beta prototype that turns text, URLs or screenshots into structured evidence, legal context and a human-reviewable report / court-prep package.
 
-**Why it matters:** rights and services only create value when people can actually reach and use them. The lab tests the smallest real intervention before proposing a larger platform.
+The stored classifier evaluation currently passes **30/35 curated cases**. Those are evaluation cases, not 35 users; broader professional and real-user validation is still the next proof.
 
-`TypeScript · React · Cloudflare Workers · D1/SQLite · Drizzle`
+**Why it matters:** sensitive automation should increase agency without quietly replacing accountable human judgment.
 
----
-
-## Selected engineering and product experiments
-
-- [**Agent Loop Lab**](https://github.com/mikelninh/agent-loop-lab) — durable TypeScript workflows with checkpoints, selective retries, `onFailure` paths and explainable evidence-backed scoring.  
-  `TypeScript · Inngest · Express`
-
-- [**Atelier Engine**](https://github.com/mikelninh/atelier-engine) — a creator-commerce prototype for made-to-order sneaker brands, with live product configuration, demand signals and creator-economics modelling.  
-  `React · Vite · Tailwind`
-
-- [**Echo's Space Station**](https://github.com/mikelninh/echo-office-1) — an interactive pixel world with an autonomous AI companion, multiplayer systems, games, an economy and citizen-science concepts.  
-  `JavaScript · Canvas · Node.js · Socket.IO · SQLite`
+`FastAPI · PostgreSQL · React · Pydantic Structured Outputs · SHA-256 evidence · bounded agent tools`
 
 ---
 
-## Shared infrastructure
+### [Digital Worker Factory](https://github.com/mikelninh/digital-worker-factory) — reliable AI-worker architecture
 
-[**Civic AI MCP Toolkit**](https://github.com/mikelninh/civic-ai-mcp-toolkit) extracts repeated infrastructure from several public-interest MCP servers into one reusable package: server factory, traced tools, structured logging, health checks, error envelopes, fixtures and CLI scaffolding.
+A working engineering prototype for AI workers that must show evidence, expose failure and ask a human before consequential actions.
 
-`Python · FastMCP · pytest`
+Its current reliability suite is deliberately **synthetic**. The next meaningful validation step is one real office workflow in shadow mode with human corrections measured.
+
+**Technical demo:** [Digital Worker Factory](https://digital-worker-factory-hallochupi-7378s-projects.vercel.app/)
+
+`JavaScript · agent workflows · approval gates · audit / replay · evaluations`
+
+---
+
+### [PrüfPilot](https://github.com/mikelninh/pruefpilot-document-ai) — document review for public-sector workflows
+
+A GovTech prototype that connects documents, versioned rules and evidence states into a human-reviewable next step. The PDF intake / extraction core works; the public reviewer cases use synthetic data.
+
+**Try it:** [PrüfPilot V5.1](https://pruefpilot-aconium.vercel.app/)
+
+`Python · FastAPI · document AI · RAG · structured outputs · human approval`
+
+---
+
+## More work
+
+- [**Citizen Agents**](https://github.com/mikelninh/citizen-agents) — open-source agents that watch laws, budgets, benefits and courts and produce cited, human-reviewed updates.
+- [**Agent Loop Lab**](https://github.com/mikelninh/agent-loop-lab) — durable TypeScript workflows with checkpoints, bounded retries and recovery paths.
+- [**OpenLeistung**](https://mikelninh.github.io/openleistung/) — synthetic end-to-end reference for a clearer German public-service journey.
+- [**Empathly**](https://github.com/mikelninh/Empathly) — multilingual emotional-vocabulary and reflection product.
+- [**Path to Peace**](https://github.com/mikelninh/path-to-peace) — open peace-education project.
+
+I also build games and private experiments; not every repository is meant to be a flagship.
 
 ---
 
 ## How I work
 
-- Start with the user, decision and failure cost — not the model.
-- Build a narrow vertical slice quickly enough to learn from.
+- Start with the person, decision and failure cost — not the model.
+- Build the smallest version someone can actually use.
 - Make evidence, uncertainty and human responsibility inspectable.
-- Turn repeated work into reusable infrastructure.
-- Describe pilots as pilots and unfinished work as unfinished work.
+- Put real and simulated cases through the workflow.
+- Turn corrections into regression tests and better behaviour.
+- Describe prototypes as prototypes and unfinished work as unfinished work.
 
-I am especially interested in applied AI, document-heavy workflows, civic technology, agent reliability and product engineering.
+I am especially interested in **Applied AI, agent reliability, document-heavy workflows, LegalTech, GovTech and product-oriented engineering**.
+
+> The next proof I care about most: **real users → real corrections → measurable outcomes.**
