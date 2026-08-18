@@ -11,7 +11,7 @@ I build AI systems that turn complex, high-stakes work into **clear, reviewable 
 | Project | What it proves | Try / inspect |
 | --- | --- | --- |
 | ⚖️ **[GitLaw](https://github.com/mikelninh/gitlaw)** | Source-grounded legal AI across 5,936 German federal laws: hybrid retrieval, citation verification and reviewable next steps | **[Try GitLaw →](https://mikelninh.github.io/gitlaw/)** |
-| 🏥 **[CareOS](https://github.com/mikelninh/care-os)** | Federated clinical context architecture: source-linked patient truth, FHIR/ISiK, zero-trust agents, safety gates and adversarial testing | **[Try synthetic demo →](https://mikelninh.github.io/careos/sjk/)** |
+| 🏥 **[CareOS](https://github.com/mikelninh/care-os)** | Clinician-first clinical context architecture: source-linked patient truth, FHIR/ISiK, bounded agents, safety gates and adversarial testing | **[Try CareOS →](https://mikelninh.github.io/careos/sjk/)** |
 | 🛡️ **[SafeVoice](https://github.com/mikelninh/safevoice)** | Evidence-first AI for digital harassment: structured evidence, legal context, integrity checks and human-reviewed case preparation | **[Open beta →](https://safevoice-vert.vercel.app)** |
 | 📄 **[PrüfPilot](https://github.com/mikelninh/pruefpilot)** | Public-sector Document AI: documents + versioned rules → evidence gaps, checks and reviewable next actions | **[Try demo →](https://mikelninh.github.io/pruefpilot/)** |
 | 🤖 **[Digital Worker Factory](https://github.com/mikelninh/digital-worker-factory)** | Trustworthy AI workers with explicit tools, evidence contracts, approval gates, audit and replayable failure tests | **[Open demo →](https://digital-worker-factory-hallochupi-7378s-projects.vercel.app/)** |
