@@ -23,7 +23,7 @@ Turns document packs and versioned rules into reviewable findings, exact next ac
 ### 🔎 [SafeTrace](https://github.com/mikelninh/digital-democracy-studio/tree/main/safetrace)
 **Source-backed investigations · provenance · uncertainty**  
 Question-first investigations across public records. The reviewer makes the judgement first, then inspects the current assessment, original evidence, unresolved gap and best next research move.  
-**[Make the call →](https://mikelninh.github.io/digital-democracy-studio/safetrace/venatic_application/)**
+**[Make the call →](https://mikelninh.github.io/venatic/)**
 
 ### ⚖️ [GitLaw](https://github.com/mikelninh/gitlaw)
 **Source-grounded legal research · retrieval · citations**  
