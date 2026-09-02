@@ -1,36 +1,47 @@
 # Michael Ninh
 
-**AI Engineer · Product Builder · Berlin / remote**
+**AI Engineer · Product & Operations · Berlin**
 
-I build AI systems that turn complex, high-stakes work into **clear, reviewable action** — grounded in evidence, explicit about uncertainty and designed to keep humans in control.
+I turn **repeated expert work and fragmented inputs into safe, inspectable self-service workflows** — with evidence, failure behaviour and human authority made explicit.
 
-**[Portfolio →](https://mikelninh.github.io/)** · [CV](https://mikelninh.github.io/cv.html) · [LinkedIn](https://www.linkedin.com/in/michael-ninh/) · [Culture](https://mikelninh.github.io/culture/)
+Before engineering, I ran e-commerce and service operations. That is why I tend to start with the **bottleneck, not the model**.
 
-## Selected work
+**[Portfolio →](https://mikelninh.github.io/)** · **[Web CV →](https://mikelninh.github.io/cv.html)** · [LinkedIn](https://www.linkedin.com/in/michael-ninh/)
 
-| Project | What it proves | Try / inspect |
-| --- | --- | --- |
-| ⚖️ **[GitLaw](https://github.com/mikelninh/gitlaw)** | Source-grounded legal AI across 5,936 German federal laws: hybrid retrieval, citation verification and reviewable next steps | **[Try GitLaw →](https://mikelninh.github.io/gitlaw/)** |
-| 🏥 **[CareOS](https://github.com/mikelninh/care-os)** | Clinician-first clinical context architecture: source-linked patient truth, FHIR/ISiK, bounded agents, safety gates and adversarial testing | **[Explore CareOS →](https://mikelninh.github.io/careos/)** |
-| 🛡️ **[SafeVoice](https://github.com/mikelninh/safevoice)** | Evidence-first AI for digital harassment: structured evidence, legal context, integrity checks and human-reviewed case preparation | **[Open beta →](https://safevoice-vert.vercel.app)** |
-| 📄 **[PrüfPilot](https://github.com/mikelninh/pruefpilot)** | Public-sector Document AI: documents + versioned rules → evidence gaps, checks and reviewable next actions | **[Try demo →](https://mikelninh.github.io/pruefpilot/)** |
-| 🤖 **[Digital Worker Factory](https://github.com/mikelninh/digital-worker-factory)** | Trustworthy AI workers with explicit tools, evidence contracts, approval gates, audit and replayable failure tests | **[Open demo →](https://digital-worker-factory-hallochupi-7378s-projects.vercel.app/)** |
-| ✦ **[Council](https://github.com/mikelninh/council)** | Evidence-first multi-agent decisions with specialist disagreement, critic challenge and falsifiable recommendations | **[Inspect source →](https://github.com/mikelninh/council)** |
+## Selected proof of work
+
+### 🤖 [Digital Worker Factory](https://github.com/mikelninh/digital-worker-factory)
+**Operations self-service · bounded agents · human release**  
+A reusable agent runtime where permissions, required evidence and consequential actions are controlled outside the model. Public HausPilot cases show the full path from incoming request → prepared work → human release, including fail-closed behaviour when required records are missing.  
+**[Try the workflow →](https://mikelninh.github.io/agents/)**
+
+### 📄 [PrüfPilot](https://github.com/mikelninh/pruefpilot)
+**Document self-service · evidence → resolution → authority**  
+Turns document packs and versioned rules into reviewable findings, exact next actions and prepared hand-offs. The public workflow shows missing-evidence, policy-exception and clean-pass cases — including what happens after a problem is found.  
+**[Try the workflow →](https://mikelninh.github.io/pruefpilot/)**
+
+### 🔎 [SafeTrace](https://github.com/mikelninh/digital-democracy-studio/tree/main/safetrace)
+**Source-backed investigations · provenance · uncertainty**  
+Question-first investigations across public records. The reviewer makes the judgement first, then inspects the current assessment, original evidence, unresolved gap and best next research move.  
+**[Make the call →](https://mikelninh.github.io/digital-democracy-studio/safetrace/venatic_application/)**
+
+### ⚖️ [GitLaw](https://github.com/mikelninh/gitlaw)
+**Source-grounded legal research · retrieval · citations**  
+Search and inspect German federal law with traceable sources. Retrieval failures can become regression cases instead of disappearing into a generic answer.  
+**[Try GitLaw →](https://mikelninh.github.io/gitlaw/)**
 
 ## How I build
 
-`human problem → useful workflow → grounded AI → visible uncertainty → human control → feedback → regression tests`
+`repeated request → map sources + authority → build the smallest useful workflow → make evidence visible → fail closed → measure → earn autonomy`
 
-**Python · FastAPI · TypeScript · React · LLMs · RAG · Agents · MCP · structured outputs · evaluations**
+**Python · FastAPI · JavaScript / Node.js · TypeScript · React · SQL / Postgres · LLMs · RAG · Agents · MCP · structured outputs · evaluations**
 
-Across the projects, the recurring engineering idea is simple: **models can interpret and propose; authority, evidence and safety boundaries should live outside the model.**
+The recurring engineering principle is simple: **models can interpret and propose; evidence, permissions and authority should not live only inside the model.**
 
-I’m especially interested in **health, law, public services and operational work** — places where good software can remove friction without quietly taking responsibility away from people.
+## More work
 
-### More experiments
+[CareOS](https://github.com/mikelninh/care-os) · [TrustReady](https://github.com/mikelninh/trustready) · [SafeVoice](https://github.com/mikelninh/safevoice) · [Citizen Agents](https://github.com/mikelninh/citizen-agents) · [Council](https://github.com/mikelninh/council)
 
-[judge-mcp](https://github.com/mikelninh/judge-mcp) · [Citizen Agents](https://github.com/mikelninh/citizen-agents) · [Human Systems Lab](https://github.com/mikelninh/human-systems-lab) · [Atelier Engine](https://github.com/mikelninh/atelier-engine)
-
-**Looking for a strong team where I can own difficult problems end to end.**
+**Looking for a strong team where I can own useful AI problems end to end.**
 
 [Let’s talk](mailto:mikel_ninh@yahoo.de)
